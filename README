@@ -1,1 +1,11 @@
+A fashion recommendation system coded in Python that:
+- Builds and trains a categorisation model using a dataset of labelled garments
+- Accesses a pinterest website url and extracts photos
+- Compares the photos to the model and picks out the most commonly reoccuring features
+- Searches ebay for similar listings and returns links to possible purchases the user may enjoy
 
+Features:
+- Tensorflow, keras
+- Numpy
+- Pandas
+- Webscraping (BeautifulSoup, serpapi)
